@@ -1,0 +1,70 @@
+*{
+    font-family: cursive;
+}
+.x1{
+    background-color: black;
+    color: white;
+}
+.x2{
+    text-align: center;
+    padding: 250px 0px 10px 0px;
+    background-image: url('background.jpg');
+    background-position: center;
+    color: white;
+    font-weight:bolder;
+    font-size: larger;
+    background-size: 100% 100%;
+}
+.x3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main, .middle, .end{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+}
+.part1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.p1, .p2, .p3{
+    padding: 40px 100px 40px 0px;
+}
+.part{
+    background-color: black;
+    color: white;
+    padding: 0px 0px 0px 20px;
+
+}
+.m1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.a1, .a2, .a3, .a4, .a5{
+    text-align: center;
+    padding: 10px;
+}
+.m2{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: midnightblue;
+    color: white;
+}
+.m3{
+    background-color: gainsboro;
+    padding-top: 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 700px){
+    img{
+        width: 100%;
+    }
+    .m1{
+        flex-direction: column;
+    }
+    .part1{
+        flex-direction: column;
+    }
+}
